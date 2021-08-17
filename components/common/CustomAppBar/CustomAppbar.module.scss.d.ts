@@ -1,2 +1,2 @@
-export const appbar: string;
+export const appBar: string;
 export const menuButton: string;

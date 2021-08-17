@@ -10,7 +10,7 @@ export default function CustomAppbar () {
         setMobileOpen(!mobileOpen);
     };
     return (
-        <AppBar position={"fixed"} className={styles.appbar}>
+        <AppBar position={"fixed"} className={styles.appBar}>
             <Toolbar>
                 <IconButton
                     color="inherit"
