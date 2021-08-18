@@ -23,12 +23,6 @@ const useStyles = makeStyles((theme: Theme) =>
         root: {
             display: 'flex',
         },
-        drawer: {
-            [theme.breakpoints.up('sm')]: {
-                width: drawerWidth,
-                flexShrink: 0,
-            },
-        },
         appBar: {
             [theme.breakpoints.up('sm')]: {
                 width: `calc(100% - ${drawerWidth}px)`,
@@ -45,6 +39,7 @@ const useStyles = makeStyles((theme: Theme) =>
         toolbar: theme.mixins.toolbar,
         drawerPaper: {
             width: drawerWidth,
+            background: '#1A3A46'
         },
         content: {
             flexGrow: 1,
@@ -82,26 +77,8 @@ export function Layout(props) {
     return (
         <div className={classes.root}>
             <CssBaseline/>
-            <nav className={classes.drawer} aria-label="mailbox folders">
+            <nav className={classes.drawerPaper} aria-label="mailbox folders">
                 {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-                <Hidden smUp implementation="css">
-                    <Drawer
-
-                        container={container}
-                        variant="temporary"
-                        anchor={theme.direction === 'rtl' ? 'right' : 'left'}
-                        open={mobileOpen}
-                        onClose={handleDrawerToggle}
-                        classes={{
-                            paper: classes.drawerPaper,
-                        }}
-                        ModalProps={{
-                            keepMounted: true, // Better open performance on mobile.
-                        }}
-                    >
-                        {drawer}
-                    </Drawer>
-                </Hidden>
                 <Hidden xsDown implementation="css">
                     <Drawer
                         classes={{
@@ -110,6 +87,7 @@ export function Layout(props) {
                         variant="permanent"
                         open
                     >
+                        dfgd
                         {drawer}
                     </Drawer>
                 </Hidden>
