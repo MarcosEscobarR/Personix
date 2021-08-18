@@ -1,0 +1,8 @@
+@import "styles/variables";
+
+.container {
+  width: 200px;
+  height: 120px;
+  border: $dim solid 2px;
+  border-radius: 10px;
+}
