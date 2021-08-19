@@ -1,0 +1,12 @@
+@import "styles/variables";
+.subtitle {
+  color: $dim;
+  font-size: 25px;
+}
+.container {
+  padding: 15px 0;
+}
+
+.hr {
+  border: 0.5px solid $stone;
+}

@@ -1,21 +1,49 @@
 import type { ReactElement } from 'react'
-import { Layout } from '../../layout/layout'
-import styles from "./index.module.css"
-import {SelectToShowCard} from "../../components/home/SelectToShowCard/SelectToShowCard";
+import  Default  from '../../layout/default/default'
+import styles from "./index.module.scss"
+import SelectNewFile from "../../components/selectNewFile/selectNewFile";
+import Subtitle from "../../components/subtitle/subtitle";
+import ProjectCard from "../../components/proyectCard/projectCard";
+
+const projects = [
+    {
+        title: 'Project 1',
+    },{
+        title: 'Project 1',
+    },{
+        title: 'Project 1',
+    },{
+        title: 'Project 1',
+    },{
+        title: 'Project 1',
+    },{
+        title: 'Project 1',
+    },
+]
 
 const Index = () => {
     return (
         <div className={styles.container}>
-            <SelectToShowCard/>
+            <div>
+                <SelectNewFile/>
+                <Subtitle subtitle='Projects'/>
+            </div>
+            <div className={styles.projectsContainer}>
+                {
+                    projects.map(p => (
+                        <ProjectCard title={p.title}/>
+                    ))
+                }
+            </div>
         </div>
     )
 }
 
 Index.getLayout = function getLayout(page: ReactElement) {
     return (
-      <Layout>
+      <Default>
         {page}
-      </Layout>
+      </Default>
     )
 }
 

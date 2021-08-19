@@ -1,0 +1,31 @@
+@import "styles/variables";
+.container {
+  width: 150px;
+  margin: 15px 25px;
+}
+.cardContainer {
+  height: 120px;
+  width: 120px;
+  border-radius: 15px;
+  background-color: khaki;
+}
+
+.optionsContainer {
+  height: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.iconContainer {
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.titleContainer {
+  padding: 0 10px;
+  display: flex;
+  color: $dim;
+  justify-content: center;
+}
