@@ -1,7 +1,10 @@
 @import "styles/variables";
 .container {
   width: 150px;
-  margin: 15px 25px;
+  margin: 15px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .cardContainer {
   height: 120px;

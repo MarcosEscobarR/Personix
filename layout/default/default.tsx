@@ -1,18 +1,15 @@
 import React from "react";
-import styles from './default.module.scss'
+import {Home} from "@material-ui/icons";
 const  Default: React.FC = ({children}) => {
     return (
         <>
             <body>
             <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
             <label htmlFor="drawer-toggle" id="drawer-toggle-label"/>
-            <header>Header</header>
+            <header>Personix</header>
             <nav id="drawer">
                 <ul>
-                    <li><a href="#">Menu Item</a></li>
-                    <li><a href="#">Menu Item</a></li>
-                    <li><a href="#">Menu Item</a></li>
-                    <li><a href="#">Menu Item</a></li>
+                    <li><a href="#"><Home/></a></li>
                 </ul>
             </nav>
             <div id="page-content">
