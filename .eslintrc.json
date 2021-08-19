@@ -1,11 +1,3 @@
 {
-  "extends": "next/core-web-vitals",
-  "overrides": [
-    {
-      "files": ["*.ts"],
-      "rules": {
-        "no-undef": "off"
-      }
-    }
-  ]
+  "extends": "next/core-web-vitals"
 }
