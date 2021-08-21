@@ -1,0 +1,30 @@
+@import "styles/variables";
+.container {
+  width: 150px;
+  margin: 15px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cardContainer {
+  height: 120px;
+  width: 120px;
+  border-radius: 15px;
+  border: #D9D9D9 dashed 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionsContainer {
+  height: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.titleContainer {
+  padding: 0 10px;
+  display: flex;
+  color: $dim;
+  justify-content: center;
+}

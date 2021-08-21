@@ -4,6 +4,7 @@ import styles from "./index.module.scss"
 import SelectNewFile from "../../components/selectNewFile/selectNewFile";
 import Subtitle from "../../components/subtitle/subtitle";
 import ProjectCard from "../../components/proyectCard/projectCard";
+import NewProjectCard from "../../components/newProjectCard/newProjectCard";
 
 const projects = [
     {
@@ -34,6 +35,7 @@ const Index = () => {
                         <ProjectCard title={p.title}/>
                     ))
                 }
+                <NewProjectCard />
             </div>
         </div>
     )

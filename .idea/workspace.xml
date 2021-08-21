@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f6052ca0-b585-4abd-813e-73d49c18a651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.css.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/InputText/InputText.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/InputText/InputText.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/InputText/InputText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useForm.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/proyectCard/projectCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/proyectCard/projectCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/default/default.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/layout/default/default.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.css.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.css.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/default/default.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/default/default.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -47,11 +58,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="C:\Users\marco\WebstormProjects\Personix\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Marcos_pc\WebstormProjects\Personix\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629334743218</updated>
       <workItem from="1629334750800" duration="8411000" />
+      <workItem from="1629504779392" duration="7606000" />
     </task>
     <servers />
   </component>
@@ -79,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

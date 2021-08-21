@@ -153,6 +153,10 @@ header {
   color:white;
 }
 
+.menu-items {
+  margin-top: 20%;
+}
+
 /* Responsive MQ */
 
 @media all and (max-width:350px) {
