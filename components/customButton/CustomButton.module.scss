@@ -1,0 +1,20 @@
+@import '../../styles/variables';
+
+.pillButton {
+    border-color: $denim;
+    color: $denim;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.filled {
+    background-color: $denim;
+    color: white;
+}
