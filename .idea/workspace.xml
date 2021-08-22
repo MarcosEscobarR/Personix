@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6052ca0-b585-4abd-813e-73d49c18a651" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authBox/AuthBox.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authBox/AuthBox.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authBox/AuthBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authGrayBox/AuthGrayBox.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authGrayBox/AuthGrayBox.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authGrayBox/AuthGrayBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authWhiteBox/AuthWhiteBox.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authWhiteBox/AuthWhiteBox.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/authWhiteBox/AuthWhiteBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/auth/signup/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/auth/signup/index.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/auth/signup/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/customButton/CustomButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/customButton/CustomButton.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/customButton/CustomButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/customButton/CustomButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/customButton/customButton.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/customButton/customButton.module.scss.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/customButton/customButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/customCheckbox/CustomCheckbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/customCheckbox/CustomCheckbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/customTextField/CustomTextField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/customTextField/CustomTextField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/login/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/index.module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/login/index.module.scss.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +70,36 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="C:\Users\Marcos_pc\WebstormProjects\Personix\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\cgarr\Downloads\Personix\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cgarr\Downloads\Personix\pages\auth\login" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +112,7 @@
       <workItem from="1629334750800" duration="8411000" />
       <workItem from="1629504779392" duration="7701000" />
       <workItem from="1629585608655" duration="4353000" />
+      <workItem from="1629658121713" duration="880000" />
     </task>
     <servers />
   </component>

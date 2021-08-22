@@ -33,12 +33,19 @@ const theme = createTheme({
 
 interface Props {
     label: string
+    isPasswordField?: boolean
 }
 
 const CustomTextField = (props: Props) => {
     return (
         <ThemeProvider theme={theme}>
-            <TextField fullWidth label={props.label} required variant="standard"/>
+            <TextField
+                fullWidth
+                label={props.label}
+                required
+                variant="standard"
+                type={props.isPasswordField ? 'password' : 'text'}
+            />
         </ThemeProvider>
     )
 }
