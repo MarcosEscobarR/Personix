@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6052ca0-b585-4abd-813e-73d49c18a651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/customButton/customButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/customButton/customButton.module.scss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/customButton/customButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/textareaCustom/textarea.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/textareaCustom/textarea.module.scss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/textareaCustom/textareaCustom.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +64,7 @@
       <updated>1629334743218</updated>
       <workItem from="1629334750800" duration="8411000" />
       <workItem from="1629504779392" duration="7701000" />
-      <workItem from="1629585608655" duration="3955000" />
+      <workItem from="1629585608655" duration="4282000" />
     </task>
     <servers />
   </component>

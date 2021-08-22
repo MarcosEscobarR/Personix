@@ -3,9 +3,9 @@ import {Dialog} from "@material-ui/core";
 import useForm, {IFormProps} from "../../hooks/useForm";
 import InputText from "../InputText/InputText";
 import TextareaCustom from "../textareaCustom/textareaCustom";
-import CustomButton from "../customButton/customButton";
 import {useState} from "react";
 import {Close} from "@material-ui/icons";
+import CustomButton from "../customButton/CustomButton";
 
 interface Props {
     open: boolean,
@@ -49,7 +49,7 @@ const NewProjectDialog = ({open, setOpen}: Props) => {
                         <TextareaCustom title='Hypothesis' handleInput={handleInputChange}/>
                     </div>
                     <div className={style.buttonContainer}>
-                        <CustomButton title='Create' onClick={handleClick}/>
+                        <CustomButton text='Create' filled={true}/>
                     </div>
                 </div>
             </Dialog></>
