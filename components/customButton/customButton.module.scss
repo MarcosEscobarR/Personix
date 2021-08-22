@@ -1,0 +1,12 @@
+@import "styles/variables";
+
+.button {
+  background-color: $denim;
+  color: white;
+  font-size: 18px;
+  padding: 3px 25px ;
+  elevation: 0;
+  border: $denim hidden;
+  border-radius: 15px;
+  margin-left: auto;
+}

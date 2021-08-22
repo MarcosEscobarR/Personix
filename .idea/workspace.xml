@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6052ca0-b585-4abd-813e-73d49c18a651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/InputText/InputText.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/InputText/InputText.module.scss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/InputText/InputText.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/customButton/customButton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/customButton/customButton.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/customButton/customButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/textareaCustom/textarea.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/textareaCustom/textarea.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/textareaCustom/textareaCustom.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.css.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.css.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/newProjectCard/newProjectCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/default/default.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/default/default.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.module.scss.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NewProjectDialog/NewProjectDialog.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -75,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1629334743218</updated>
       <workItem from="1629334750800" duration="8411000" />
-      <workItem from="1629504779392" duration="7606000" />
+      <workItem from="1629504779392" duration="7701000" />
+      <workItem from="1629585608655" duration="3955000" />
     </task>
     <servers />
   </component>
