@@ -39,7 +39,7 @@ const NewProjectDialog = ({open, setOpen}: Props) => {
     }
     return (
         <>
-            <button className={style.closeButton}><Close style={{color: '#ffff', fontSize: 20}}/></button>
+            {/*<button className={style.closeButton}><Close style={{color: '#ffff', fontSize: 20}}/></button>*/}
             <Dialog open={open} onClose={handleClose}>
                 <div className={style.container}>
                     <div><span className={style.title}>Project Details</span></div>
