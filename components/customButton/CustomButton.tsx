@@ -4,6 +4,7 @@ interface Props {
     text: string,
     filled?: boolean,
     fullWidth?: boolean
+    onClick?: () => void
 }
 
 const CustomButton = (props: Props) => {
@@ -18,7 +19,7 @@ const CustomButton = (props: Props) => {
     }
 
     return (
-        <button className={classesToApply}>{ props.text }</button>
+        <button className={classesToApply} onClick={props.onClick}>{ props.text }</button>
     )
 }
 

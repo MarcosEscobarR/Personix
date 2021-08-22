@@ -1,0 +1,50 @@
+@import "../../../styles/variables";
+
+.formContainer, .form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formContainer {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 55px 25px;
+
+  h1 {
+    color: #4E4E51;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+.checkboxWrapper {
+  margin-top: 10px;
+}
+
+.buttonWrapper {
+  margin-top: 30px;
+}
+
+.authOptions {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+
+  a, span {
+    color: $denim;
+    font-size: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited{
+    color: $denim;
+  }
+
+  span {
+    margin: 0 3px;
+  }
+}
