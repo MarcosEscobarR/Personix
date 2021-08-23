@@ -1,0 +1,22 @@
+@import "./styles/variables";
+.container {
+  display: block;
+}
+
+.title {
+  margin: 2px 0;
+
+  span {
+    color: $dim;
+  }
+}
+
+.input {
+  color: $dim;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: $dim solid 1.5px;
+  elevation: 0;
+  height: 30px;
+}

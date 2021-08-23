@@ -1,0 +1,33 @@
+@import './styles/variables';
+.container {
+  width: 400px;
+  height: 380px;
+  padding: 25px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.formContainer {
+  margin: 10px 0;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+}
+
+.closeButton {
+  position: relative;
+  left: calc(100% - 23px);
+  background-color: $denim;
+  width: 22px;
+  height: 22px;
+  border: $denim hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 100px;
+}
