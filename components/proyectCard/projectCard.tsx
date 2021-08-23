@@ -2,13 +2,14 @@ import styles from './projectCard.module.scss'
 import {BarChart, MoreHoriz} from "@material-ui/icons";
 
 interface Props {
-    title: string
+    title: string,
+    color: string,
 }
-const ProjectCard = ({title}: Props) => {
+const ProjectCard = ({title, color}: Props) => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.cardContainer}>
+                <div className={styles.cardContainer} style={{background: color}}>
                     <div className={styles.optionContainer}>
                         <MoreHoriz style={{color: '#ffff', justifyContent: 'end'}}/>
                     </div>

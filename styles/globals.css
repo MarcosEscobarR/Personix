@@ -73,7 +73,7 @@ we're going to style the label instead */
   height: 2px;
   width: 24px;
   background: #8d8d8d;
-  left: 13px;
+  left: 100px;
   top: 18px;
   box-shadow: 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d;
 }
@@ -81,7 +81,7 @@ we're going to style the label instead */
 header {
   width: 100%;
   position: fixed;
-  left: 0px;
+  left: 100px;
   background: #ffff;
   padding: 10px 10px 10px 50px;
   font-size: 30px;
@@ -92,9 +92,9 @@ header {
 #drawer {
   position: fixed;
   top: 0;
-  left:-300px;
+  left:0px;
   height: 100%;
-  width: 100px;
+  width: 90px;
   background: #1A3A46;
   overflow-x: hidden;
   overflow-y: auto;
@@ -108,11 +108,12 @@ header {
   margin-left: 0px;
   margin-top: 50px;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow-x:hidden;
   overflow-y:auto;
   -webkit-overflow-scrolling: touch;
   padding: 20px;
+  background-color: #FCFCFC;
 }
 
 /* checked styles (menu open state) */
@@ -129,7 +130,7 @@ header {
 }
 
 #drawer-toggle:checked ~ #drawer {
-  left: 0px;
+  left: 100px;
 }
 
 #drawer-toggle:checked ~ #page-content {
@@ -139,12 +140,12 @@ header {
 /* Menu item styles */
 
 #drawer ul {
+  padding-top: 200px;
   list-style-type:none;
 }
 
 #drawer ul a {
   display:block;
-  padding:10px;
   color:#c7c7c7;
   text-decoration:none;
 }
