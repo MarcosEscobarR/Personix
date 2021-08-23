@@ -1,12 +1,23 @@
 @import "styles/variables";
 .subtitle {
-  color: $dim;
-  font-size: 25px;
+  color: $space;
+  font-size: 20px;
+
 }
 .container {
-  padding: 15px 0;
+  padding-top: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .hr {
+  display: block;
   border: 0.5px solid $stone;
+}
+
+.analysisInformation {
+  font-size: 22px;
+  color: $stone;
+  font-weight: 300;
 }

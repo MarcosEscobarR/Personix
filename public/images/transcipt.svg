@@ -1,0 +1,9 @@
+<svg id="transcript" xmlns="http://www.w3.org/2000/svg" width="80" height="55" viewBox="0 0 80 55">
+    <text id="Transcript-2" data-name="Transcript" transform="translate(0 51)" fill="#6b6b6b" font-size="16" font-family="Montserrat-Light, Montserrat" font-weight="300"><tspan x="0" y="0">Transcript</tspan></text>
+    <rect id="Rectangle_19" data-name="Rectangle 19" width="57" height="28" rx="5" transform="translate(11)" fill="#b5dae8"/>
+    <g id="text_lines" data-name="text lines" transform="translate(21 7)">
+        <rect id="Rectangle_696" data-name="Rectangle 696" width="37" height="3" rx="1.5" fill="#fff"/>
+        <rect id="Rectangle_697" data-name="Rectangle 697" width="37" height="3" rx="1.5" transform="translate(0 6)" fill="#fff"/>
+        <rect id="Rectangle_698" data-name="Rectangle 698" width="21" height="3" rx="1.5" transform="translate(0 12)" fill="#fff"/>
+    </g>
+</svg>

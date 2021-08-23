@@ -1,3 +1,13 @@
+@import "styles/variables";
 .container {
-  padding: 5% 15%  ;
+  padding: 4% 8%  ;
+}
+
+.navContainer {
+  border: $stone solid 1px;
+  border-radius: 10px;
+}
+
+.selectNewFileContainer {
+  margin: 0 10px;
 }

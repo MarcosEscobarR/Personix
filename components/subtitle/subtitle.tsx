@@ -1,14 +1,22 @@
 import styles from './subtitle.module.scss'
 interface Props {
-    subtitle: string
+    subtitle: string,
+    analysisInformation? :string
 }
 
-const Subtitle = ({subtitle}: Props) => {
+const Subtitle = ({subtitle, analysisInformation}: Props) => {
     return (
-        <div className={styles.container}>
-            <span className={styles.subtitle}>{subtitle}</span>
+        <>
+            <div className={styles.container}>
+                <span className={styles.subtitle}>{subtitle}</span>
+
+                {
+                    analysisInformation ? <span className={styles.analysisInformation}>{analysisInformation}</span>: ''
+                }
+            </div>
             <hr className={styles.hr}/>
-        </div>
+
+        </>
     )
 
 }
