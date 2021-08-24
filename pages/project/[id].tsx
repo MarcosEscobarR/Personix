@@ -7,6 +7,7 @@ import {EmojiObjects, FileCopy} from "@material-ui/icons";
 import Subtitle from "../../components/subtitle/subtitle";
 import SelectNewFile from "../../components/selectNewFile/selectNewFile";
 import File from "../../components/file/file";
+import PageSelector from "../../components/pageSelector/PageSelector";
 
 const Project = () => {
 
@@ -37,24 +38,9 @@ const Project = () => {
     return (
         <div className={styles.container}
         >
-            <Grid container spacing={4}>
+            <Grid container spacing={5}>
                 <Grid item xs={2}>
-                    <div className={styles.navContainer}>
-                        <List>
-                            <ListItem button>
-                                <ListItemIcon>
-                                    <FileCopy/>
-                                </ListItemIcon>
-                                <ListItemText primary="Files" style={{fontWeight: "normal", fontSize: 12}}/>
-                            </ListItem>
-                            <ListItem button>
-                                <ListItemIcon>
-                                    <EmojiObjects/>
-                                </ListItemIcon>
-                                <ListItemText primary="Highlights"/>
-                            </ListItem>
-                        </List>
-                    </div>
+                    <PageSelector/>
                 </Grid>
                 <Grid item xs={9} >
                     <Subtitle subtitle='Your Files'/>
@@ -72,6 +58,9 @@ const Project = () => {
                             }
                         </Grid>
                     </Grid>
+                    <div className={styles.learningsContainer}>
+                        <Subtitle subtitle='Learnings'/>
+                    </div>
                 </Grid>
             </Grid>
         </div>
