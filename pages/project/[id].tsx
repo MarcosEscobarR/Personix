@@ -12,6 +12,28 @@ const Project = () => {
 
     const router = useRouter();
     const {id} = router.query;
+
+    const files = [
+        {
+            name: 'Alejandra',
+            updatedAt: '05/12'
+        },        {
+            name: 'Alejandra',
+            updatedAt: '05/12'
+        },        {
+            name: 'Alejandra',
+            updatedAt: '05/12'
+        },        {
+            name: 'Alejandra',
+            updatedAt: '05/12'
+        },        {
+            name: 'Alejandra',
+            updatedAt: '05/12'
+        },        {
+            name: 'Alejandra',
+            updatedAt: '05/12'
+        },
+    ]
     return (
         <div className={styles.container}
         >
@@ -34,16 +56,20 @@ const Project = () => {
                         </List>
                     </div>
                 </Grid>
-                <Grid item xs={10}>
+                <Grid item xs={9} >
                     <Subtitle subtitle='Your Files'/>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={2} style={{marginTop: 10}}>
                         <Grid item xs={4}>
-                            <div style={{marginTop: 10}}>
+                            <div>
                                 <SelectNewFile/>
                             </div>
                         </Grid>
-                        <Grid item xs={8}>
-                            <File name='Alejandra' uploadedAt='05/5' haveTranscript={true}/>
+                        <Grid item xs={8} className={styles.filesContainer}>
+                            {
+                                files.map(p => (
+                                    <File name={p.name} uploadedAt={p.updatedAt} haveTranscript={true}/>
+                                ))
+                            }
                         </Grid>
                     </Grid>
                 </Grid>

@@ -1,0 +1,32 @@
+@import "./styles/variables";
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  padding: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  padding: 0 5px;
+}
+
+.description {
+  color: $dim;
+  font-weight: 200  ;
+}
+
+.transcriptIcon {
+  margin-left: auto;
+}
+
+.hr {
+  display: block;
+  background-color: $stone;
+  height: 0.2px;
+  border: none;
+}

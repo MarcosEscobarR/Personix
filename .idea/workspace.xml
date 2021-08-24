@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6052ca0-b585-4abd-813e-73d49c18a651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/pageSelector/PageSelector.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/pageSelector/PageSelector.module.scss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/pageSelector/PageSelector.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/project/highlights/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/project/highlights/index.module.scss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/project/highlights/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/file/file.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/file/file.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/file/file.module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/file/file.module.scss.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/file/file.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/file/file.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project/[id].module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project/[id].module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].module.scss.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/transcipt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/transcript.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="C:\Users\cgarr\Downloads\Personix\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Marcos_pc\WebstormProjects\Personix\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -97,6 +99,7 @@
       <workItem from="1629585608655" duration="10706000" />
       <workItem from="1629764038647" duration="947000" />
       <workItem from="1629765013998" duration="2152000" />
+      <workItem from="1629767489989" duration="4348000" />
     </task>
     <servers />
   </component>
