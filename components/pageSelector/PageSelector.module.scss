@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+.pageSelector {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $stone;
+  padding: 10px;
+  border-radius: 3px;
+
+  span {
+    font-size: 15px;
+    color: $stone;
+    font-weight: 300;
+  }
+}
+
+.selected {
+  color: $dim !important;
+  font-weight: 400;
+}

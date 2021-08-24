@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6052ca0-b585-4abd-813e-73d49c18a651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/file/file.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/file/file.module.scss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/file/file.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fileLogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/transcipt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pageSelector/PageSelector.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pageSelector/PageSelector.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pageSelector/PageSelector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/project/highlights/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/project/highlights/index.module.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/project/highlights/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/subtitle/subtitle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/subtitle/subtitle.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/subtitle/subtitle.module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/subtitle/subtitle.module.scss.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/subtitle/subtitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/subtitle/subtitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/[id].module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/[id].module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].module.scss.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +53,36 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="C:\Users\marco\WebstormProjects\Personix\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\cgarr\Downloads\Personix\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cgarr\Downloads\Personix\pages\project\transcripts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,6 +95,8 @@
       <workItem from="1629334750800" duration="8411000" />
       <workItem from="1629504779392" duration="7701000" />
       <workItem from="1629585608655" duration="10706000" />
+      <workItem from="1629764038647" duration="947000" />
+      <workItem from="1629765013998" duration="2152000" />
     </task>
     <servers />
   </component>
