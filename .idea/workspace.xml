@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6052ca0-b585-4abd-813e-73d49c18a651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.module.scss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/[id].module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project/[id].module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].module.scss.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.module.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.module.scss.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/tagsMenu/tagsMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project/[id].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,8 @@
       <workItem from="1629764038647" duration="947000" />
       <workItem from="1629765013998" duration="2152000" />
       <workItem from="1629767489989" duration="4348000" />
-      <workItem from="1629824813649" duration="2808000" />
+      <workItem from="1629824813649" duration="3777000" />
+      <workItem from="1629842368688" duration="2443000" />
     </task>
     <servers />
   </component>
@@ -116,6 +115,18 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/tagsMenu/tagsMenu.tsx</url>
+          <line>36</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

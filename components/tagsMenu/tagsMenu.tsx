@@ -1,6 +1,7 @@
-import {withStyles} from "@material-ui/styles";
+import { withStyles } from '@material-ui/core/styles';
 import {Menu, MenuItem, MenuProps} from "@material-ui/core";
 import React from "react";
+import styles from './tagsMenu.module.scss'
 
 interface Tags {
     id: number,
@@ -15,22 +16,22 @@ interface Props {
 const StyledMenu = withStyles({
     paper: {
         border: '1px solid #d3d4d5',
-    }
+    },
 })((props: MenuProps) => (
     <Menu
         elevation={0}
         getContentAnchorEl={null}
         anchorOrigin={{
             vertical: 'bottom',
-            horizontal: 'center'
+            horizontal: 'center',
         }}
         transformOrigin={{
-            vertical: "top",
-            horizontal: "center"
+            vertical: 'top',
+            horizontal: 'center',
         }}
         {...props}
-        />
-))
+    />
+));
 
 const StyledMenuItem = withStyles((theme) => ({
     root: {
@@ -39,9 +40,9 @@ const StyledMenuItem = withStyles((theme) => ({
             '& .MuiListItemIcon-root, & .MuiListItemText-primary': {
                 color: theme.palette.common.white,
             },
-        }
-    }
-}))(MenuItem)
+        },
+    },
+}))(MenuItem);
 
 const TagsMenu = ({tags}: Props) => {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -49,12 +50,31 @@ const TagsMenu = ({tags}: Props) => {
       setAnchorEl(event.currentTarget);
     }
 
-    const handleCloset = () => {
+    const handleClose = () => {
       setAnchorEl(null)
     }
     return (
         <>
-            
+            <div className={styles.menuItemContainer} onClick={handleClick}>
+                <div><span>{tags[0].name}</span></div>
+            </div>
+            <StyledMenu
+                id='Menu'
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+                >
+                {
+                    tags.map(p => (
+                        <StyledMenuItem>
+                            <div>
+                                <div>{p.name}</div>
+                            </div>
+                        </StyledMenuItem>
+                    ))
+                }
+            </StyledMenu>
         </>
     )
 }

@@ -8,6 +8,7 @@ import Subtitle from "../../components/subtitle/subtitle";
 import SelectNewFile from "../../components/selectNewFile/selectNewFile";
 import File from "../../components/file/file";
 import PageSelector from "../../components/pageSelector/PageSelector";
+import TagsMenu from "../../components/tagsMenu/tagsMenu";
 
 const Project = () => {
 
@@ -35,6 +36,24 @@ const Project = () => {
             updatedAt: '05/12'
         },
     ]
+
+    const tags = [
+        {
+            id: 1,
+            name: 'Project 1',
+            color: '#ebba34'
+        }, {
+            id: 2,
+            name: 'Project 2',
+            color: '#80afe8'
+
+        }, {
+            id: 3,
+            name: 'Project 3',
+            color: '#9cf0c2'
+
+        }
+    ]
     return (
         <div className={styles.container}
         >
@@ -60,6 +79,7 @@ const Project = () => {
                     </Grid>
                     <div className={styles.learningsContainer}>
                         <Subtitle subtitle='Learnings'/>
+                        {/*<TagsMenu tags={tags}/>*/}
                     </div>
                 </Grid>
             </Grid>

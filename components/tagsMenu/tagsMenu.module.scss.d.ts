@@ -1,0 +1,1 @@
+export const menuItemContainer: string;
