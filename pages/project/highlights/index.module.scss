@@ -5,8 +5,13 @@
   background: white;
   padding-left: 8%;
   padding-top: 4%;
+  display: flex;
 }
 
 .leftColumn {
-  width: 100px;
+  width: 140px;
+}
+
+.rightColumn {
+  padding: 10px;
 }

@@ -11,10 +11,23 @@
     font-size: 15px;
     color: $stone;
     font-weight: 300;
+    margin-left: 7px;
   }
+}
+
+.icon {
+  color: $stone;
 }
 
 .selected {
   color: $dim !important;
   font-weight: 400;
+}
+
+.selectedIcon {
+  color: $dim !important;
+}
+
+.option {
+  display: flex;
 }
